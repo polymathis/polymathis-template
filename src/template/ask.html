@@ -1,0 +1,14 @@
+${require('./partials/head.html')}
+<div class="container-fluid">
+    ${require('./partials/header.html')}
+    <div class="row justify-content-center">
+        <input class="tags" name="tags" />
+        <script>
+          const choices = new Choices('.tags')
+
+          console.log(choices)
+        </script>
+    </div>
+    ${require('./partials/footer_links.html')}
+</div>
+${require('./partials/footer.html')}

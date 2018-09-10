@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap-grid";
 @import "~bootstrap/scss/bootstrap";
+$choices-button-icon-path: "~choices.js/assets/icons";
+@import '~choices.js/assets/styles/scss/choices';
 @import "./fa/fontawesome";
 @import "./fa/solid";
-

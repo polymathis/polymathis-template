@@ -36,16 +36,6 @@ body {
 .search-box {
   height: 80px;
   padding: 10px 0;
-  .ask {
-    button {
-      background-color: $warm-black;
-      color: $azureish-white-light;
-      &:active {
-        background-color: $deep-space-sparkle;
-        color: $white;
-      }
-    }
-  }
 }
 
 .content {
@@ -60,4 +50,16 @@ body {
     height: 2px;
     background-color: $deep-space-sparkle;
   }
+}
+
+.dark-btn {
+  background-color: $warm-black;
+  color: $azureish-white-light;
+}
+.dark-btn:active {
+  background-color: $deep-space-sparkle;
+  color: $white;
+}
+.dark-btn:hover {
+  color: $white;
 }
